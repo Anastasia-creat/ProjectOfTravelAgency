@@ -1,6 +1,5 @@
-# ProjectOfTravelAgency
-Название проекта, ссылка на макет( описать что там будет, дизайн ссылки на граф макеты), и функционал самого сайта
-TurAgency
+﻿# ProjectOfTravelAgency
+
 
 Графический макет
 https://www.figma.com/file/OlmM3aNzcZp3LIzkqCSZVP/TripGoalLandingPage-u?node-id=0%3A1

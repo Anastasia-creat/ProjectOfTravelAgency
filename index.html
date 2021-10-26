@@ -5,23 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fonts-->
-    
+    <script src="https://kit.fontawesome.com/a418dea393.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
     <!--end Fonts-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <title>TurAgency</title>
 </head>
 <body>
 
     <header class="header">
-        шапка
-        <!--верстка всей шапки-->
-        <img class="header__logo" src="img/fon-mask.png" alt="">
-        <ul class="header__nav">
-            <li class="header__item"></li>
-            <li class="header__item"></li>
-        </ul>
+            <nav class="header__navbar">
+                <a class="header__logo" href="#">TurAgency</a>
+                <div class="header__navbar__container">
+                    <ul class="header__navbar__list">
+                        <li class="header__navbar__item">
+                            <a class="header__navbar__link" href="#">Главная</a>
+                        </li>
+                        <li class="header__navbar__item">
+                            <a class="header__navbar__link" href="#">О нас</a>
+                        </li>
+                        <li class="header__navbar__item">
+                            <a class="header__navbar__link" href="#">Туры</a>
+                        </li>
+                        <li class="header__navbar__item">
+                            <a class="header__navbar__link" href="#">Партнер</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="header__navbar__registration" href="#">Регистрация</a>
+            </nav>
+            <div class="header__container">
+                <div>
+                    <img src="img/NavbarCollage.png" alt="Коллаж" class="header__Collage">
+                </div>
+                <div>
+                    <h4>Закажите сейчас</h4>
+                    <h2>Наслаждайтесь поездкой с TurAgency</h2>
+                    <p>Думаете отдохнуть от повседневной напряженной жизни? Планируете поехать за границу со своими близкими, чтобы весело и качественно провести время с минимальными затратами?<br>Распланируйте ваш уникальный маршрут вместе с нами, просто оставьте заявку и мы свяжемся с вами.</p>
+                    <a class="header__content__choise" href="#">Заказать сейчас</a>
+                </div>
+                
+            </div>
+            
+
     </header>
     
     <main>
@@ -37,8 +67,50 @@
         <section class="section">7</section>
     </main>
 
-    <footer class="footer">
-        <!--весь подвал--> подвал
+    <footer>
+        <section class="section__contact__us">
+            <div class="container contact__container">
+              <div class="contact__us">
+                  <p class="contact">Связаться с нами</p>
+                  <p class="questions">У вас остались вопросы?</p>
+                  <a href="#" class="contact__button">Задать вопрос</a>
+              </div>
+            </div>
+          </section>
+          <section class="section__footer">
+            <div>
+              <div class="container footer">
+                <div>
+                  <p class="logo">TurAgency</p>
+                </div>
+                <div class="footer__text">
+                  <p class="text">На главную</p>
+                  <p class="text">О нас</p>
+                  <p class="text">Отзывы клиентов</p>
+                  <p class="text">Обратная связь</p>
+                  <p class="text">Политика конфидециальности</p>
+                </div>
+                <div class="social">
+                  <i class="fab fa-vk"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+              </div>
+            </div>
+      
+            <div class="footer__container">
+              <div class="adress">
+              <p>Г. Челябинск, ул. Ворошилова, д.23, "Customs</p>
+              <p>8 (800) 100-10-74</p>
+              </div>
+            </div>
+            
+          </section>
+          <section class="section__copyright">
+            <div class="container copyright">
+              <p> © 2021. All copyrights reserved by Customs</p>
+            </div>
+          </section>
     </footer>
 </body>
 

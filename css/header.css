@@ -1,0 +1,53 @@
+header{
+    background-color: #F8F8F8;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header__navbar__item{
+    list-style-type: none;
+    padding: 10px ;
+}
+.header__navbar__link{
+    color:black;
+}
+.header__logo{
+    margin-top:20px;
+    height:40px;
+    font-size: 26px;
+    
+}
+.header__navbar__registration{
+    display: inline-block;
+    background-color: #DDBC95;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top:20px;
+    height:40px;
+}
+.header__navbar__list{
+    display: flex;
+    flex-direction: row;
+}
+.header__navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.header__container{
+    display: flex;
+    margin-top: 20px;
+}
+.header__content__choise{
+    display: inline-block;
+    background-color: #DDBC95;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+}

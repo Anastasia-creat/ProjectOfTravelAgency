@@ -1,0 +1,46 @@
+
+.footer__container{
+   /* position: relative;*/
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+.contact__us{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      margin-left: 50px;
+
+}
+.contact__container{
+    border: 3px solid #F3F8FF;
+    border-radius: 35px;
+    width: 1000px;
+    height: 378px;
+    background: #F3F8FF;
+    /*background: url('/img/woman.svg') no-repeat right center;*/
+
+}
+.contact{
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer__text{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    padding-right: 40px;
+}
+.copyright{
+    margin: 0 auto;
+}
+.adress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

@@ -10,6 +10,9 @@ body{
     font-size: 16px;
     line-height: 150%;
     color: #000;
+    width: 1140px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -38,10 +41,4 @@ a:focus{
 
 a:active{
     background:rgba(255,0,0,.5);
-}
-
-.header, main, .footer {
-    width: 1140px;
-    margin: 0 auto;
-    border: 1px solid black;
 }

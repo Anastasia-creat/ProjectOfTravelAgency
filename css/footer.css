@@ -3,12 +3,16 @@
    /* position: relative;*/
     max-width: 1170px;
     margin: 0 auto;
+    background-color: #cdcdc0;
+   
   }
 .contact__us{
       display: flex;
       flex-direction: column;
       padding-top: 10px;
       margin-left: 50px;
+      
+      
 
 }
 .contact__container{
@@ -18,6 +22,7 @@
     height: 378px;
     background: #F3F8FF;
     /*background: url('/img/woman.svg') no-repeat right center;*/
+    background-color: #cdcdc0;
 
 }
 .contact{
@@ -27,6 +32,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #cdcdc0;
 }
 .footer__text{
     display: flex;
@@ -37,6 +43,7 @@
 }
 .copyright{
     margin: 0 auto;
+    background-color: #cdcdc0;
 }
 .adress{
     display: flex;

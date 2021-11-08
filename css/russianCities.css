@@ -1,0 +1,27 @@
+.section__russianCities{
+    background-color: #cdcdc0;
+}
+
+.russiancities__container{
+    display: inline;
+}
+
+.russianCities__photo{
+    width: 365px;
+    border: grey solid 2px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.russianCities__card{
+    display: flex;
+    margin: 5px;
+    position: relative;
+}
+
+.section__russianCities__text{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: serif;
+    
+}

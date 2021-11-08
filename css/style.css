@@ -27,7 +27,7 @@ h1, h2{
 }
 
 a{
-    color: #59BBF2;
+    color: #4f4a45;
     font-size: 12px;
     text-decoration: none;
     padding: 5px;
@@ -38,9 +38,6 @@ a:hover{
 }
 
 a:focus{
-    outline: #59BBF2 solid 1px;
+    outline: #4f4a45 solid 1px;
 }
 
-a:active{
-    background:rgba(255,0,0,.5);
-}

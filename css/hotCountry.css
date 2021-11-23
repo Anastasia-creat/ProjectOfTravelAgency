@@ -6,7 +6,7 @@
 }
 .country__grid{
     display: flex;
-    margin:5px;
+    margin:35px;
     position: relative;
 }
 .country__image{
@@ -15,7 +15,7 @@
     position: relative;
 }
 .section__country__text{
-    margin-left:20px;
+    margin-left:45px;
     margin-bottom: 20px;
     font-family: serif;
 }

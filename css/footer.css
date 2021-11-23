@@ -1,6 +1,6 @@
 .footer__container{
     /* position: relative;*/
-     max-width: 1170px;
+     max-width: 100%;
      margin: 0 auto;
      display: flex;
      flex-direction: row;
@@ -43,7 +43,7 @@
      line-height: 18px;
  }
  .questions{
-     font-family: serif;
+     font-family: 'Playfair Display', serif;
      font-style: normal;
      font-weight: 500;
      font-size: 52px;
@@ -87,13 +87,10 @@
  .text{
      padding-right: 20px;
      font-family: serif;
-    
      font-size: 15px;
      line-height: 18px;
      color: black;
-     
  }
- 
  .copyright{
      margin: 0 auto;
      text-align: center;
@@ -105,19 +102,15 @@
      padding: 20px;
  }
  .footer__adress--adress{
-     padding-right: 600px;
+     padding-right: 450px;
      font-family: serif;
      margin-left: 30px;
-
  }
-
  .footer__adress--number{
      font-family: serif;
-     color: black;
+     color: black;  
  }
- 
  .social__image{
- 
      border-radius: 20px;
      font-size: 20px;
      color: black;
@@ -127,3 +120,30 @@
  .social__image:hover{
      color: rgb(125, 121, 129);
  }
+ ul{
+     list-style: none;  
+ }
+ ul.footer__icons li{
+     display: inline;
+ }
+ .footer__menu{
+    padding: 10px ;
+    padding-left: 30px; 
+ }
+ .footer__text{
+    display: flex;
+    flex-direction: row;
+    color: black;
+   
+ }
+.footer__logo{
+    margin:30px;
+    height:40px;
+    font-size: 20px;
+    font-family: serif;
+}
+.logo{
+    font-size: 20px;
+}
+
+

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fonts-->
     <script src="https://kit.fontawesome.com/a418dea393.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
+    
     <!--end Fonts-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,6 +18,12 @@
     <link rel="stylesheet" href="css/hotCountry.css">
     <link rel="stylesheet" href="css/russianCities.css">
     <link rel="stylesheet" href="css/about__us.css">
+    <link rel="stylesheet" href="css/shapka.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
 
     <title>TurAgency</title>
     <meta name="keywords" content="Туры, Путешествия, Многообразие стран">
@@ -35,14 +43,15 @@
     компания, которая занимается организацией туров в самые разные места мира. Путешествуйте с семьей или друзьями.
     Здесь Вы можете ознакомиться с информацией о нас. А также посмотреть наиболее популярные туры, как по России, так и 
     в другие страны.">
-    <meta property="og:image" content="https://TravelAgency.ru/icons/plane.ico">
+    <meta property="og:image" content="https://TravelAgency.ru/img/main.jpg">
 
 </head>
-<body>
+<body class="container">
 
     <header class="header">
             <nav class="header__navbar">
-                <a class="header__logo" href="#">TurAgency</a>
+                <a class="header__logo" href="#">TurAgency</a> 
+
                 <div class="header__navbar__container">
                     <ul class="header__navbar__list">
                         <li class="header__navbar__item">
@@ -64,60 +73,64 @@
                 </div>
                 <a class="header__navbar__registration" href="#" style="font-size: 15px;">Регистрация</a>
             </nav>
-            <div class="header__container">
-                <div>
-                    <img src="img/NavbarCollage2.png" alt="Коллаж" class="header__Collage">
-                </div>
-                <div>
-                   
-                    <h2>Наслаждайтесь поездкой вместе с TurAgency</h2>
-                    <p>Думаете отдохнуть от повседневной напряженной жизни? Планируете поехать за границу со своими близкими, чтобы весело и качественно провести время с минимальными затратами?<br>Распланируйте ваш уникальный маршрут вместе с нами, просто оставьте заявку и мы свяжемся с вами.</p>
-                    <a class="header__content__choise" href="#" style="font-size: 15px;">Заказать сейчас</a>
-                </div>
-                
-            </div>
+            <img src="icons/Vector 15.svg">
             
 
     </header>
-    <main>
-          
-        
+    <main class="main">
+      
+          <section class="section__shapka">
+            <div class="section__shapka__container">
+              <div class="section__shapka__photo">
+                  <img src="img/NavbarCollage2.png" loading="lazy" alt="Коллаж" class="header__Collage">
+              </div>
+              <div class="section__shapka-text">
+                  <h2 class="shapka__text">Наслаждайтесь поездкой вместе с TurAgency</h2>
+                  <p>Думаете отдохнуть от повседневной напряженной жизни? Планируете поехать за границу со своими близкими, чтобы весело и качественно провести время с минимальными затратами?<br>Распланируйте ваш уникальный маршрут вместе с нами, просто оставьте заявку и мы свяжемся с вами.</p>
+                  <a class="header__content__choise" href="#" style="font-size: 15px;">Заказать сейчас</a>
+              </div>
+              </div>
+            </div>
+          </section>
+
         <section class="section__russianCities">
+          <img src="icons/Vector 15.svg">
           <div class="russianCities__container">
             <div class="section__russianCities__text">
-              <h2><strong style="font-size: smaller; font-weight: lighter;">Россия</strong></h2>
-              <i style="font-size: 20px;">В данном разделе мы хотели бы представить наиболее популярные туристические
+              <p class="names">Россия</p>
+              <p><i style="font-size: 20px;">В данном разделе мы хотели бы представить наиболее популярные туристические
                 города России!
-              </i>
+              </i></p>
             </div>
             <div class="russianCities__card">
-              <div> <a href="#"> <img class="russianCities__photo" src="img/Sochi.jpg" alt="Сочи"> </a></div>
-              <div><a href="#"><img class="russianCities__photo" src="img/Vladivostok.jpg" alt="Владивосток"></a>    </div>
-              <div><a href="#"><img class="russianCities__photo" src="img/Piter.jpg" alt="Санкт-Петербург"></a></div>
+              <div> <a href="#"> <img class="russianCities__photo" src="img/Sochi.jpg" loading="lazy" alt="Сочи"> </a></div>
+              <div><a href="#"><img class="russianCities__photo" src="img/Vladivostok.jpg" loading="lazy" alt="Владивосток"></a>    </div>
+              <div><a href="#"><img class="russianCities__photo" src="img/Piter.jpg" loading="lazy" alt="Санкт-Петербург"></a></div>
             </div>
           </div>
         </section>
 
         <section class="section__country">
+          <img src="icons/Vector 15.svg">
           <div class="country__container">
             <div class="section__country__text">
-              <h2><strong style="font-size: smaller; font-weight: lighter;">Зарубежные Страны</strong></h2>
-              <i style="font-size: 20px;">Данный раздел покажет и расскажет вам о самых популярных зарубежных странах!</i>
+              <p class="names">Зарубежные страны</p>
+              <p><i style="font-size: 20px;">Данный раздел покажет и расскажет вам о самых популярных зарубежных странах!</i></p>
             </div>
             <div class="country__grid">
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Spain.jpg" alt="Испания"></a></div>
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/France.jpg" alt="Франция"></a></div>
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Australia.jpg" alt="Австралия"></a></div>
+              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Spain.jpg" loading="lazy" alt="Испания"></a></div>
+              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/France.jpg" loading="lazy" alt="Франция"></a></div>
+              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Australia.jpg" loading="lazy" alt="Австралия"></a></div>
           </div>
           </div>
         </section>
 
-
         <section class="section">
+          <img src="icons/Vector 15.svg">
           <div class="container about__us--container">
             <div class="about__us"> 
             <div class="about__us--text">
-             
+              
               <h1 class="about__us--bigtext">Идеальное место для путешествий
                   вас & вашей семьи</h1>
               <p class="about__us--smalltext">Как путешествия могут быть одним из лучших инструментов для личностного роста? 
@@ -125,33 +138,33 @@
             </div>
             <div class="about__us--box">
               <div class="about__us--container--box">
-                <h1 class="about__us--bluetext">
+                <p class="about__us--bluetext">
                   10M+
-                </h1>
+                </p>
                 <p class="about__us--box-text">
                   Клиенты
                 </p>
               </div>
               <div class="about__us--container--box">
-                <h1 class="about__us--bluetext">
+                <p class="about__us--bluetext">
                   109
-                </h1>
+                </p>
                 <p class="about__us--box-text">
                   Отели
                 </p>
               </div>
               <div class="about__us--container--box">
-                <h1 class="about__us--bluetext">
+                <p class="about__us--bluetext">
                   29
-                </h1>
+                </p>
                 <p class="about__us--box-text">
                   Food Shop
                 </p>
               </div>
               <div class="about__us--container--box">
-                <h1 class="about__us--bluetext">
+                <p class="about__us--bluetext">
                   18
-                </h1>
+                </p>
                 <p class="about__us--box-text">
                   Related Spots
                 </p>
@@ -159,7 +172,7 @@
             </div>
           </div>
             <div >
-              <img class="abous__us--collage" src="img/AboutWe3.png" alt="Коллаж о нас">
+              <img class="abous__us--collage" src="img/AboutWe3.png" loading="lazy" alt="Коллаж о нас">
             </div>
           </div>
         </section>
@@ -168,6 +181,7 @@
 
     <footer>
       <section class="section__contact__us">
+     
         <div class="container contact__container">
           <div class="contact__us">
               <p class="contact">Напишите нам</p>
@@ -182,47 +196,55 @@
       <section class="section__footer">
         <div>
           <div class="container footer">
-            <div>
-              <p class="logo">TurAgency</p>
+          
+             <div class="footer__container">
+              <ul class="footer__text">
+                <li class="footer__menu">
+                  <a class="logo" href="#">TurAgency</a> 
+                </li>
+                <li class="footer__menu">
+                  <a class="text" href="#">На главную</a>
+               </li>
+                <li class="footer__menu">
+                  <a class="text" href="#">О нас</a>
+                </li>
+                <li class="footer__menu"> 
+                  <a class="text" href="#">Отзывы клиентов</a>
+                </li>
+                <li class="footer__menu"> 
+                  <a class="text" href="#">Обратная связь</a>
+               </li>
+                <li class="footer__menu"> 
+                  <a class="text"  href="#">Политика конфидециальности</a>
+               </li>
+               <li><a href="#"><i class="social__image fab fa-vk"></i></a></li>
+                <li><a href="#"><i class="social__image fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="social__image fab fa-facebook-f"></i></a></li>
+              </ul>
+             </div>
+          
             </div>
-            <div class="footer__text">
-              <a href="#">
-                <p class="text">На главную</p>
-              </a>
-              <a href="#">
-                <p class="text">О нас</p>
-              </a>
-              <a href="#">
-                <p class="text">Отзывы клиентов</p>
-              </a>
-              <a href="#">
-                <p class="text">Обратная связь</p>
-              </a>
-              <a href="#">
-                <p class="text">Политика конфидециальности</p>
-              </a>
-              
-            </div>
-            <div class="social">
-              <a href="#"><i class="social__image fab fa-vk"></i></a>
-              <a href="#"><i class="social__image fab fa-instagram"></i></a>
-              <a href="#"><i class="social__image fab fa-facebook-f"></i></a>
-            </div>
-            
+           
           </div>
         </div>
   
         <div class="footer__container">
           <div class="adress">
-          <p class="footer__adress--adress">Г. Челябинск, ул. Ворошилова, д.23, "Customs"</p>
-          <p class="footer__adress--number">8 (800) 100-10-74</p>
+            <ul class="footer__text">
+              <li class="footer__menu">
+            <address class="footer__adress--adress">Г. Челябинск, ул. Ворошилова, д.23, "Customs"</address>
+              </li>
+              <li class="footer__menu">
+                  <a href="8 (800) 100-10-74" style="font-size: 15px;">8 (800) 100-10-74</a>
+              </li>
+            </ul>
           </div>
-          
         </div>
         
       </section>
       <section class="section__copyright">
         <div class="container copyright">
+          <img src="icons/Vector 15.svg">
           <p> © 2021. All copyrights reserved by Customs</p>
         </div>
       </section>

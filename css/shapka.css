@@ -1,0 +1,29 @@
+.section__shapka{
+    background-color: #cdcdc0;
+    
+}
+.section__shapka__container{
+    display: flex;
+    margin-top: 60px;
+    float: right;
+   
+}
+.header__content__choise{
+    display: inline-block;
+    background-color: #DDBC95;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.section__shapka-text{
+    font-family: serif;
+    margin-right: 20px;
+   
+}
+.shapka__text{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 42px;
+    line-height: 52px; 
+}

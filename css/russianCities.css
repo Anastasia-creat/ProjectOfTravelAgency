@@ -4,6 +4,7 @@
 
 .russiancities__container{
     display: inline;
+ 
 }
 
 .russianCities__photo{
@@ -15,13 +16,19 @@
 
 .russianCities__card{
     display: flex;
-    margin: 5px;
+    margin: 35px;
     position: relative;
 }
 
 .section__russianCities__text{
-    margin-left: 20px;
+    margin-left: 45px;
     margin-bottom: 20px;
     font-family: serif;
     
+}
+
+.names{
+    font-size: 30px;
+    color: black;
+    font-family: serif;
 }

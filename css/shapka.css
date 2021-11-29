@@ -8,6 +8,17 @@
     float: right;
    
 }
+@media(max-width:862px){
+    .section__shapka__photo{
+        display: none;
+    }
+    .section__shapka-text{
+        
+        text-align: center;
+    }
+ 
+   
+}
 .header__content__choise{
     display: inline-block;
     background-color: #DDBC95;

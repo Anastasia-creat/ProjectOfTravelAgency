@@ -6,16 +6,36 @@
     display: inline;
  
 }
+.russianCities__item{
+    width: 30%;
+   
+}
 
-.russianCities__photo{
-    width: 365px;
+@media(max-width:762px){
+    .russianCities__item3{
+        display: none;
+       
+    }
+    .russianCities__item{
+        width: 45%;
+    }
+    
+   
+}
+
+
+
+.russianCities__photo1, .russianCities__photo2, .russianCities__photo3{
+    width: 100%;
     border: grey solid 2px;
     border-radius: 20px;
     position: relative;
 }
 
+
 .russianCities__card{
     display: flex;
+    justify-content: space-around;
     margin: 35px;
     position: relative;
 }

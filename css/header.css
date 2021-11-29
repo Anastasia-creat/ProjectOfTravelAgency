@@ -1,6 +1,7 @@
 header{
     background-color: #cdcdc0;
     font-family: p;
+    border-bottom: rgb(145, 139, 139) 1px solid;
 }
 .header{
     display: flex;

@@ -136,6 +136,12 @@
     color: black;
    
  }
+ @media(max-width: 860px){
+    .container footer{
+      display: flex;
+      flex-wrap: wrap;
+    }
+ }
 .footer__logo{
     margin:30px;
     height:40px;
@@ -144,6 +150,9 @@
 }
 .logo{
     font-size: 20px;
+}
+.section__copyright{
+    border-top: rgb(145, 139, 139) 1px solid;
 }
 
 

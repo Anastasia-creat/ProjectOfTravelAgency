@@ -1,0 +1,126 @@
+
+.section__shapka-text-about-us{
+    text-align: center;
+    
+}
+.about-us__navbar__container{
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row;
+   width: 100%;
+  
+    
+}
+.about-us__navbar__list{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  
+    
+}
+.shapka__text-about-us{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 42px;
+    line-height: 52px; 
+}
+
+.section__why-logo-about-us{
+   
+    text-align: center;
+}
+.section__why-text-about-us{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.logo-why-us{
+    font-size: 35px;
+    font-family: 'EB Garamond', sans-serif;
+    background-color: blanchedalmond;
+   height: 30px;
+}
+
+.logo-part{
+    font-size: 25px;
+    text-align: center;
+   margin-top: 40px;
+  
+}
+
+.logo{
+    
+    font-size: 30px;
+    margin-left: 130px;
+    
+}
+.text-block{
+    font-size: 20px;
+margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.col-3 {
+  
+    height: 250px;
+    width: 100%; 
+    background: #dac3b3;
+    margin: .5rem;
+  }
+  .row {
+      margin-top: 20px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      align-content: center;
+      justify-content: space-around;
+  }
+
+  .card-1{
+      margin-top: 30px;
+      height: 300px;
+      width: 200px;
+     
+  }
+  .container__topay-card{
+    display: flex;
+    float: right;
+    margin: 30px;
+  
+   
+  }
+  
+  .section__text_topay-1{
+      margin: 30px;
+      font-size: 20px;
+  }
+  .topay-1__logo{
+      text-align: center;
+      font-size: 25px;
+  }
+  
+.partners-logo{
+    text-align: center;
+    background-color:blanchedalmond;
+}
+.container__partners__list{
+    
+    padding-top: 50px;
+}
+.card-photo{
+    margin: 50px;
+    padding-top: 10px;
+}
+  .card-photo{
+    display: flex;
+    display: inline-block;
+   margin: 7px;
+    padding-bottom: 65px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 

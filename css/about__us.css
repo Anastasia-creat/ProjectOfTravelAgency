@@ -14,6 +14,13 @@
   
     
 }
+@media(max-width: 972px){
+    .abous__us--collage{
+        display: none;
+ 
+     }
+ }
+ 
 .about__us--container--box{
     width: 150px;
     height: 130px;
@@ -55,7 +62,7 @@
     color: #00B3A0;
 }
 .about__us--bigtext{
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
     font-style: normal;
     font-weight: lighter;
     font-size: 42px;

@@ -6,37 +6,83 @@
     display: inline;
  
 }
-.russianCities__item{
+.card{
     width: 30%;
+  
    
 }
 
-@media(max-width:762px){
-    .russianCities__item3{
+@media(max-width:869px){
+    .card3{
         display: none;
        
     }
-    .russianCities__item{
+    .card{
         width: 45%;
+       
+    }
+    .card__item-info{
+        margin-right: 50px;
     }
     
    
 }
+@media(max-width:1031.1px){
+    .card__item-star{
+        margin-right: 5px;
+    }
+    .card__item-name-city-vladivostok2{
+        display:block;
+        font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    font-weight: bold;
+    width: 100px;
+    height: 10px;
+    margin-left: 5px;
+    }
+    .card__item-name-city-vladivostok1{
+        display: none;
+    }
+}
 
+@media(min-width:1031.1px){
+    .card__item-name-city-vladivostok2{
+        display: none;
+        font-size: 30px;
+        color: black;
+        margin-top: 50px;
+       
+        width: 100px;
+        height: 10px;
+        margin-left: 5px;
+    }
+}
 
-
-.russianCities__photo1, .russianCities__photo2, .russianCities__photo3{
+@media(max-width:878px){
+    .card__item-info{
+       margin-right: 20px;
+    }
+}
+.russianCities__photo{
     width: 100%;
     border: grey solid 2px;
     border-radius: 20px;
     position: relative;
 }
 
+@media(max-width: 579px){
+    .card1, .card2{
+        display: block;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
 
 .russianCities__card{
     display: flex;
     justify-content: space-around;
-    margin: 35px;
+    margin: 5px;
     position: relative;
 }
 
@@ -51,4 +97,66 @@
     font-size: 30px;
     color: black;
     font-family: serif;
+}
+.card{
+    
+   
+    border: 2px solid;
+    border-radius: 20px;
+   
+    margin: 0px 5px;
+}
+.card1{
+    background: url("../img/Sochi.png");
+}
+.card2{
+    background: url("../img/Vladik.png");
+}
+.card3{
+    background: url("../img/Piter.png");
+}
+.card-item{
+    border: solid 2px gray;
+    border-radius: 20px;
+    
+   
+   margin-top: 383px;
+   margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background: #CDD6DB;
+    opacity: .5;
+    filter: blur(0.4px);
+}
+.card__item-name{
+    
+    width: 100%;
+}
+.card__item-info{
+    padding-left: 30px;
+}
+.card__item-star{
+    font-size: 18px;
+    color: rgb(35, 54, 156);
+   
+   
+    margin-top: 5px;
+}
+.card__item-price{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.card__item-name-city , .card__item-name-city-vladivostok1{
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    font-weight: bold;
+    width: 100px;
+    height: 10px;
+    margin-left: 5px;
+   
+    
+}
+.fas{
+display: inline;
 }

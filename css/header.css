@@ -1,6 +1,6 @@
 header{
     background-color: #cdcdc0;
-    font-family: p;
+    font-family: 'Playfair Display', serif;
     border-bottom: rgb(145, 139, 139) 1px solid;
 }
 .header{
@@ -15,12 +15,14 @@ header{
 }
 .header__navbar__link{
     color:black;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
 }
 .header__logo{
     margin-top:20px;
     height:40px;
     font-size: 26px;
+    font-family: 'EB Garamond', sans-serif;
   
     
 }
@@ -34,6 +36,7 @@ header{
     border-radius: 6px;
     margin-top:20px;
     height:40px;
+    font-family:  'Playfair Display';
     
 }
 

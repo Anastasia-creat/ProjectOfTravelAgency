@@ -10,11 +10,12 @@
     <meta charset="UTF-8">
     
     <!--end Fonts-->
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/citys.css">
+    
     <link rel="stylesheet" href="css/hotCountry.css">
     <link rel="stylesheet" href="css/russianCities.css">
     <link rel="stylesheet" href="css/about__us.css">
@@ -22,10 +23,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Mukta:wght@200;300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 
 
-    <title>TurAgency</title>
+    <title>Тур-агенство</title>
     <meta name="keywords" content="Туры, Путешествия, Многообразие стран">
     <meta name="description" content="Добро пожаловать на главную страницу нашего туристического агенства. Мы - небольшая
     компания, которая занимается организацией туров в самые разные места мира. Путешествуйте с семьей или друзьями. 
@@ -50,24 +51,24 @@
 
     <header class="header">
             <nav class="header__navbar">
-                <a class="header__logo" href="#">TurAgency</a> 
+                <a class="header__logo" href="index.html">TurAgency</a> 
 
                 <div class="header__navbar__container">
                     <ul class="header__navbar__list">
                         <li class="header__navbar__item">
-                            <a class="header__navbar__link" href="#">Главная</a>
+                            <a class="header__navbar__link" href="index.html">Главная</a>
                         </li>
                         <li class="header__navbar__item">
-                            <a class="header__navbar__link" href="#">О нас</a>
+                            <a class="header__navbar__link" href="page-about-us.html">О нас</a>
                         </li>
                         <li class="header__navbar__item">
-                            <a class="header__navbar__link" href="#">Туры</a>
+                            <a class="header__navbar__link" href="tours.html">Туры</a>
                         </li>
                         <li class="header__navbar__item">
-                          <a class="header__navbar__link" href="#">Контакты</a>
+                          <a class="header__navbar__link" href="#contacts">Контакты</a>
                       </li>
                         <li class="header__navbar__item">
-                            <a class="header__navbar__link" href="#">Партнеры</a>
+                            <a class="header__navbar__link" href="page-about-us.html #part">Партнеры</a>
                         </li>
                     </ul>
                 </div>
@@ -98,16 +99,55 @@
           <div class="russianCities__container">
             <div class="section__russianCities__text">
               <p class="names">Россия</p>
-              <p><i style="font-size: 20px;">В данном разделе мы хотели бы представить наиболее популярные туристические
+              <p class="names__p"><i style="font-size: 20px;">В данном разделе мы хотели бы представить наиболее популярные туристические
                 города России!
               </i></p>
             </div>
             <div class="russianCities__card">
-              <div class=" russianCities__item russianCities__item1"> <a href="#"><img class="russianCities__photo1" src="img/Sochi.jpg" loading="lazy" alt="Сочи"> </a></div>
-              <div class="russianCities__item russianCities__item2"><a href="#"><img class="russianCities__photo2" src="img/Vladivostok.jpg" loading="lazy" alt="Владивосток"></a>    </div>
-              <div class="russianCities__item russianCities__item3"><a href="#"><img class="russianCities__photo3" src="img/Piter.jpg" loading="lazy" alt="Санкт-Петербург"></a></div>
+              <div class="card card1">
+                <div class="russianCities__photo">
+                <div class="card-item card-item1">
+                  <div class="card__item-name">
+                    <p class="card__item-name-city">Сочи</p>
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="card card2">
+                <div class="russianCities__photo">
+                <div class="card-item card-item2">
+                  <div class="card__item-name">
+                    <p class="card__item-name-city-vladivostok1">Владивосток</p>
+                    <p class="card__item-name-city-vladivostok2">Влади-<br>восток</p>
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                 </div>
+              </div>
+              <div class="card card3">
+                <div class="russianCities__photo">
+                <div class="card-item card-item3">
+                  <div class="card__item-name">
+                    <div class="card__item-name-city">Санкт-Петербург</div>
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
+
         </section>
 
         <section class="section__country">
@@ -115,13 +155,51 @@
           <div class="country__container">
             <div class="section__country__text">
               <p class="names">Зарубежные страны</p>
-              <p><i style="font-size: 20px;">Данный раздел покажет и расскажет вам о самых популярных зарубежных странах!</i></p>
+              <p class="names__p"><i style="font-size: 20px;">Данный раздел покажет и расскажет вам о самых популярных зарубежных странах!</i></p>
             </div>
-            <div class="country__grid">
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Spain.jpg" loading="lazy" alt="Испания"></a></div>
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/France.jpg" loading="lazy" alt="Франция"></a></div>
-              <div><a  href="#"><img class="country__image" style="width: 365px;" src="img/Australia.jpg" loading="lazy" alt="Австралия"></a></div>
-          </div>
+            <div class="hotCountry__card">
+              <div class="country-card country-card1">
+                <div class="hotCountry__photo">
+                <div class="card-item card-item1">
+                  <div class="card__item-name">
+                    <p class="card__item-name-city">Испания</p>
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                
+              </div>
+              </div>
+              <div class="country-card country-card2">
+                <div class="hotCountry__photo">
+                <div class="card-item card-item2">
+                  <div class="card__item-name">
+                    <p class="card__item-name-city">Франция</p>
+                    
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                 </div>
+              </div>
+              <div class="country-card country-card3">
+                <div class="hotCountry__photo">
+                <div class="card-item card-item3">
+                  <div class="card__item-name">
+                    <div class="card__item-name-city">Австралия</div>
+                  </div>
+                  <div class="card__item-info">
+                    <p class="card__item-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <p class="card__item-price">$1200</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -193,20 +271,20 @@
           </div>
         </div>
       </section>
-      <section class="section__footer">
+      <section class="section__footer"><a name="contacts"></a>
         <div>
           <div class="container footer">
           
              <div class="footer__container">
               <ul class="footer__text">
                 <li class="footer__menu">
-                  <a class="logo" href="#">TurAgency</a> 
+                  <a class="logo" href="index.html">TurAgency</a> 
                 </li>
                 <li class="footer__menu">
-                  <a class="text" href="#">На главную</a>
+                  <a class="text main-text" href="index.html">На главную</a>
                </li>
                 <li class="footer__menu">
-                  <a class="text" href="#">О нас</a>
+                  <a class="text" href="page-about-us.html">О нас</a>
                 </li>
                 <li class="footer__menu"> 
                   <a class="text" href="#">Отзывы клиентов</a>
@@ -244,7 +322,7 @@
       </section>
       <section class="section__copyright">
         <div class="container copyright">
-          <img src="icons/Vector 15.svg">
+          
           <p> © 2021. All copyrights reserved by Customs</p>
         </div>
       </section>

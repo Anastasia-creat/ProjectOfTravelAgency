@@ -1,0 +1,108 @@
+.feedback__clients{
+    font-size: 30px;
+    text-align: center;
+}
+.feedback__card__list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+/* Карточка 1*/
+.feedback__card{
+    width: 350px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+   /* background: url(/img/image__profile.png) no-repeat center;*/
+}
+.feedback{
+    width: 325px;
+    height:125px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-top: 215px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #cdcdc0;
+}
+.feedback__name{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+.feedback__text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: normal;
+}
+/* Карточка 1*/
+
+/* Карточка 2*/
+.feedback__card2{
+    width: 350px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+   /* background: url(/img/image__profile.png) no-repeat center;*/
+}
+.feedback2{
+    width: 325px;
+    height:125px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-top: 215px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #cdcdc0;
+}
+.feedback__name2{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+.feedback__text2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: normal;
+}
+/* Карточка 2*/
+
+/* Карточка 3*/
+.feedback__card3{
+    width: 350px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+  /*  background: url(/img/image__profile.png) no-repeat center;*/
+}
+.feedback3{
+    width: 325px;
+    height:125px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-top: 215px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #cdcdc0;
+}
+.feedback__name3{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+.feedback__text3{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: normal;
+}
+/* Карточка 3*/

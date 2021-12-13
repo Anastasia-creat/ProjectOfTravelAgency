@@ -5,7 +5,7 @@
 .section__shapka__container{
     display: flex;
     margin-top: 60px;
-    float: right;
+   
    
 }
 @media(max-width:862px){
@@ -27,6 +27,7 @@
     text-decoration: none;
     border-radius: 6px;
     font-family:  'Playfair Display';
+    font-size: 15px;
 }
 .section__shapka-text{
     font-family: serif;

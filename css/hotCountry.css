@@ -48,6 +48,14 @@
         width: 80%;
     }
 }
+@media(max-width: 600px){
+    .country-card2{
+      display: none;
+    }
+    .country-card1{
+        width: 70%;
+    }
+}
 
 .hotCountry__card{
     display: flex;

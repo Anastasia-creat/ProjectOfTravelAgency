@@ -1,12 +1,13 @@
-.footer__container{
-    /* position: relative;*/
-     max-width: 100%;
-     margin: 0 auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
+
+ .footer__container{
+     position: relative;
+      max-width: 100%; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between; 
   
-   }
+    } 
 
   
  .contact__us{
@@ -23,6 +24,8 @@
  }
  .section__footer{
      background-color: #cdcdc0 ;
+     
+   
  }
 
  .contact__container{
@@ -74,11 +77,11 @@
      text-align: center;
      color: #FFFFFF;
  }
- .footer{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
- }
+ /* .footer{ */
+     /* display: flex; */
+     /* flex-direction: row; */
+     /* justify-content: space-around; */
+ /* } */
  .footer__text{
      display: flex;
      flex-direction: row;
@@ -140,10 +143,14 @@
     padding-left: 30px; 
     font-family: 'EB Garamond', serif;
  }
+ .footer-tel{
+     font-size: 15px;
+ }
  .footer__text{
     display: flex;
     flex-direction: row;
     color: black;
+    
    
  }
  @media(max-width: 866px){

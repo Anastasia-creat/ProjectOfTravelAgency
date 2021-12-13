@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/adelaida.css">
     
     <link rel="stylesheet" href="css/hotCountry.css">
     <link rel="stylesheet" href="css/russianCities.css">
@@ -72,7 +73,7 @@
                        
                     </ul>
                 </div>
-                <a class="header__navbar__registration" href="#" style="font-size: 15px;">Регистрация</a>
+                <a class="header__navbar__registration" href="#">Регистрация</a>
             </nav>
            
             
@@ -84,94 +85,113 @@
           Отзывы наших клиентов!
         </p>
         <div class="feedback__card__list">
-          <div class="feedback__card">
+          <div class="fd feedback__card">
+            
             <div class="feedback">
                 <p class="feedback__name">Анастасия</p>
                 <p class="feedback__text">Чудесный мужчина Василий, помог с оформлением морской шенгенской визы .Все быстро, компетентно и очень профессионально. Спасибо огромное!</p> 
             </div>
           </div>
-          <div class="feedback__card2">
+          <div class="fd feedback__card2">
             <div class="feedback2">
                 <p class="feedback__name2">Анатолий</p>
-                <p class="feedback__text2">Хорошая компания! Анастасия молодец. Автобус хороший,водители тоже, ехали хорошо цены адекватные. Впечатлений море! </p> 
+                <p class="feedback__text2">Хорошая компания! Анастасия молодец. Автобус хороший,водители тоже, ехали хорошо, цены адекватные. Впечатлений море! Всем советую.  </p> 
             </div>
           </div>
-          <div class="feedback__card3">
+          <div class="fd feedback__card3">
             <div class="feedback3">
                 <p class="feedback__name3">Инесса</p>
-                <p class="feedback__text3">Хорошее агентство. Индивидуальный подход, разумные цены, приятные менеджеры!</p> 
+                <p class="feedback__text3">Хорошее агентство. Индивидуальный подход, разумные цены, приятные менеджеры!
+                  Воспользуйтесь этим тур-агенством. Не пожалеете.
+                </p> 
             </div>
           </div>
         </div>
       </section>
       <section class="feedback__form">
-        <div class="clients__form"><a name="feed"></a>
-          <form action="feedback">
-            <p>Имя: <input type="text" name="name"></p>
-            <p>E-mail: <input type="email" name="email"></p>
-            <p>Отзыв: <input type="text" name="feedback"></p>
-          </form>
-        </div>
+        <form id="clients" class="clients__form">
+          <div class="form__item form__name">
+            <div class="labels">
+              <label for="name">Имя</label>
+            </div>
+            <div>
+              <input class="form__elem" type="text" id="name" name="name" placeholder="Иванов Иван Иванович"  required>
+            </div>
+  
+          </div>
+         
+          <div class="form__item form__feedback">
+            <div class="labels">
+              <label for="feedback">Отзыв</label>
+            </div>
+            <div>
+              <textarea type="text" class="area" id="feedback" name="feedback" placeholder="Оставьте свой отзыв о нашей компании" required 
+              ></textarea>
+            </div>
+            
+          </div>
+        
+         
+
+          
+          <button class="bout__button">
+            <a class="form__text--button">Оставить отзыв</a>
+          </button>
+  
+  
+        </form>
       </section>
     </main>
 
     <footer>
-      <section class="section__footer"><a name="contacts"></a>
-        <div>
-          <div class="container footer">
-          
-             <div class="footer__container">
-              <ul class="footer__text">
-                <li class="footer__menu">
-                  <a class="footer-logo" href="index.html">TurAgency</a> 
-                </li>
-                <li class="footer__menu">
-                  <a class="text main-text" href="index.html">На главную</a>
-               </li>
-                <li class="footer__menu">
-                  <a class="text" href="page-about-us.html">О нас</a>
-                </li>
-                <li class="footer__menu"> 
-                  <a class="text" href="feedback.html">Отзывы клиентов</a>
-                </li>
-                <li class="footer__menu"> 
-                  <a class="text" href="feedback.html #feed">Обратная связь</a>
-               </li>
-                <li class="footer__menu"> 
-                  <a class="text"  href="#">Политика конфидециальности</a>
-               </li>
-               <li><a href="#"><i class="social__image fab fa-vk"></i></a></li>
-                <li><a href="#"><i class="social__image fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="social__image fab fa-facebook-f"></i></a></li>
-              </ul>
-             </div>
-          
-            </div>
-           
-          </div>
-        </div>
+      <section id="contacts" class="section__footer">
   
-        <div class="footer__container">
-          <div class="adress">
-            <ul class="footer__text">
-              <li class="footer__menu">
-            <address class="footer__adress--adress">Г. Челябинск, ул. Ворошилова, д.23, "Customs"</address>
-              </li>
-              <li class="footer__menu">
-                  <a href="8 (800) 100-10-74" style="font-size: 15px;">8 (800) 100-10-74</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        
-      </section>
-      <section class="section__copyright">
-        <div class="container copyright">
-          
-          <p> © 2021. All copyrights reserved by Customs</p>
-        </div>
-      </section>
-    </footer>
+        <ul class="footer__text">
+          <li class="footer__menu">
+            <a class="footer-logo" href="index.html">TurAgency</a> 
+          </li>
+          <li class="footer__menu">
+            <a class="text main-text" href="index.html">На главную</a>
+         </li>
+          <li class="footer__menu">
+            <a class="text" href="page-about-us.html">О нас</a>
+          </li>
+          <li class="footer__menu"> 
+            <a class="text" href="feedback.html">Отзывы клиентов</a>
+          </li>
+          <li class="footer__menu"> 
+            <a class="text" href="feedback.html #feed">Обратная связь</a>
+         </li>
+          <li class="footer__menu"> 
+            <a class="text"  href="#">Политика конфидециальности</a>
+         </li>
+         <li><a href="#"><i class="social__image fab fa-vk"></i></a></li>
+          <li><a href="#"><i class="social__image fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="social__image fab fa-facebook-f"></i></a></li>
+        </ul>
+      
+    
+  <div class="footer__container">
+    <div class="adress">
+      <ul class="footer__text">
+        <li class="footer__menu">
+      <address class="footer__adress--adress">Г. Челябинск, ул. Ворошилова, д.23, "Customs"</address>
+        </li>
+        <li class="footer__menu">
+            <a class="footer-tel" href="tel:8 (800) 100-10-74">8 (800) 100-10-74</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</section>
+<section class="section__copyright">
+  <div class="container copyright">
+    
+    <p> &copy; 2021. All copyrights reserved by Customs</p>
+  </div>
+</section>
+</footer>
 </body>
 
 

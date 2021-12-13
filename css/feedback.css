@@ -14,11 +14,11 @@
     height: 350px;
     border: 2px solid gray;
     border-radius: 10px;
-   /* background: url(/img/image__profile.png) no-repeat center;*/
+    background: url('../img/image__profile.png') no-repeat center;
 }
 .feedback{
     width: 325px;
-    height:125px;
+   
     border: 2px solid gray;
     border-radius: 25px;
     margin-top: 215px;
@@ -26,6 +26,19 @@
     display: flex;
     flex-direction: column;
     background: #cdcdc0;
+}
+
+@media(max-width: 1020px){
+    .feedback__card3{
+        display: none;
+    }
+    
+}
+@media(max-width: 680px){
+    .feedback__card2{
+        display: none;
+    }
+    
 }
 .feedback__name{
     font-size: 20px;
@@ -47,11 +60,11 @@
     height: 350px;
     border: 2px solid gray;
     border-radius: 10px;
-   /* background: url(/img/image__profile.png) no-repeat center;*/
+    background: url('../img/image__profile.png') no-repeat center;
 }
 .feedback2{
     width: 325px;
-    height:125px;
+   
     border: 2px solid gray;
     border-radius: 25px;
     margin-top: 215px;
@@ -80,11 +93,11 @@
     height: 350px;
     border: 2px solid gray;
     border-radius: 10px;
-  /*  background: url(/img/image__profile.png) no-repeat center;*/
+    background: url('../img/image__profile.png') no-repeat center;
 }
 .feedback3{
     width: 325px;
-    height:125px;
+   
     border: 2px solid gray;
     border-radius: 25px;
     margin-top: 215px;
@@ -106,3 +119,47 @@
     line-height: normal;
 }
 /* Карточка 3*/
+
+/*Форма*/
+.clients__form{
+    border: gray 2px solid;
+    max-width: 450px;
+    min-height: 200px;
+    margin-top: 30px;
+    margin: 20px auto;
+}
+
+.form__item {
+    display: flex;
+
+}
+.form__name{
+    font-size: 25px;
+}
+
+.form__feedback{
+    font-size: 25px;
+}
+.form__btn{
+    font-size: 25px;
+    margin-left: 5px ;
+}
+.name{
+    position: relative;
+    right: 0px;
+}
+.labels {
+    width: 100px;
+   
+   
+}
+.form__elem{
+  
+    height: 30px;
+  
+}
+.area{
+    margin-left: 15px;
+}
+
+/*Форма*/

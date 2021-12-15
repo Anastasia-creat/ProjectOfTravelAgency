@@ -1,6 +1,4 @@
-.section__russianCities{
-    background-color: #cdcdc0;
-}
+
 
 .russiancities__container{
     display: inline;
@@ -100,11 +98,7 @@
     
 }
 
-.names{
-    font-size: 30px;
-    color: black;
-    font-family: serif;
-}
+
 .names__p{
 font-size: 20px;
 }
@@ -125,37 +119,8 @@ font-size: 20px;
 .card3{
     background: url("../img/Piter.png");
 }
-.card-item{
-    border: solid 2px gray;
-    border-radius: 20px;
-    
-   
-   margin-top: 383px;
-   margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    background: #CDD6DB;
-    opacity: .5;
-    filter: blur(0.4px);
-}
-.card__item-name{
-    
-    width: 100%;
-}
-.card__item-info{
-    padding-left: 30px;
-}
-.card__item-star{
-    font-size: 18px;
-    color: rgb(35, 54, 156);
-   
-   
-    margin-top: 5px;
-}
-.card__item-price{
-    font-size: 30px;
-    margin-top: 20px;
-}
+
+
 .card__item-name-city , .card__item-name-city-vladivostok1{
     font-size: 30px;
     color: black;
@@ -166,7 +131,4 @@ font-size: 20px;
     margin-left: 5px;
    
     
-}
-.fas{
-display: inline;
 }

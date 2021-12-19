@@ -1,0 +1,73 @@
+page__adelaida.html
+
+Австралия:
+Алис-Спринг-Alis-Spring.html
+Брисбен-Brisben.html
+Голд-Кост-Gold-Kost.html
+Канберра-Kanbera.html
+Кэрнс-Karns.html
+Мельбурн-Melbyrn.html
+Перт-Pert.html
+Сидней-Sidney.html
+
+Испания:
+Аликанте-Alikants.html
+Барселона-Barselona.html
+Бильбао-Bilbao.html
+Валенсия-Valensia.html
+Гранада-Granada.html
+Мадрид-Madrid.html
+Малага-Malaga.html
+Севилья-Sevilia.html
+Толедо-Toledo.html
+
+Китай:
+Гуанчжоу-Guanghou.html
+Гуйлинь-Guilin.html
+Лхаса-Lahasa.html
+Пекин-Pekin.html
+Санья-Sania.html
+Сиань-Sian.html
+Урумчи-Urumchi.html
+Ханчжоу-Hanchjou.html
+Шанхай-Hanhay.html
+
+
+
+
+
+Россия:
+Владивосток -  Vladivostok.html
+Казань   -     Kazan.html
+Калининград  -  Kaliningrad.html
+Москва  -    Moscow.html
+Нижний Новгород - Nizhny-Novgorod.html
+Санкт-Петербург   - Peterburg.html
+Сергиев Пасад - Sergiev Posad.html
+Сочи -  Sochi.html
+Ярославль -  Yaroslavl.html
+
+
+
+Франция:
+Авиньон -  Avinon.html
+Анси  -  Ansi.html
+Канны  -  Kanni.html
+Каркассон  -  Carcassonne.html
+Лион - Lyon.html
+Ницца -  Nizza.html
+Париж  - Paris.html
+Сен-Мало  - Saint-Malo.html
+Экс-Ан-Прованс - Aix-en-provence.html
+
+
+Южная Корея:
+Бусан(Пусан)  -   Busan.html
+Инчхон - Incheon.html
+Кенджу - Gyeongju.html
+Сеул - Seoul.html
+Тэгу - Daegu.html
+Тэджон - Daejeon.html
+Ульсан - Ulsan.html
+Чеджу - Cheju.html
+Сувон - Suwon.html

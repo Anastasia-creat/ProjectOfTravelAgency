@@ -2,32 +2,32 @@ header{
     background-color: #cdcdc0;
     font-family: 'Playfair Display', serif;
     border-bottom: rgb(145, 139, 139) 1px solid;
-}
-.header{
+    }
+    .header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.header__navbar__item{
+    }
+    .header__navbar__item{
     list-style-type: none;
     padding: 10px ;
     
-}
-.header__navbar__link{
+    }
+    .header__navbar__link{
     color:black;
     font-size: 20px;
     font-family: 'EB Garamond', serif;
-}
-.header__logo{
+    }
+    .header__logo{
     margin-top:20px;
     height:40px;
     font-size: 26px;
     font-family: 'EB Garamond', sans-serif;
-  
     
-}
-
-.header__navbar__registration{
+    
+    }
+    
+    .header__navbar__registration{
     display: inline-block;
     background-color: #DDBC95;
     color: white;
@@ -36,20 +36,36 @@ header{
     border-radius: 6px;
     margin-top:20px;
     height:40px;
-    font-family:  'Playfair Display';
+    font-family: 'Playfair Display';
     font-size: 15px;
     
-}
-
-
-.header__navbar__list{
+    }
+    
+    
+    .header__navbar__list{
     display: flex;
     flex-direction: row;
-}
-.header__navbar{
+    }
+    .header__navbar{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     width:100%;
-}
+    }
+    
+ @media(max-width:760px) {
+    .header__logo{
+    display: none;
+    }
+    }
+    
+ @media(max-width:630px) {
+    .header__navbar__main{
+    display:none;
+    }
+    .header__navbar__partners{
+    display:none;
+    }
+    } 
 
+  
